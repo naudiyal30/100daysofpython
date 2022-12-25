@@ -21,3 +21,27 @@ d=12
 isGreater(c,d)
 calculateGmean(c, d)
 
+
+#function arguments
+def average(a,b):
+    print("the average is ", (a+b)/2)
+average(4,6)
+
+def name(fname="jatin", mname="sharma", lname="naudiyal"):
+    print("hello", fname, mname, lname)
+name("shreya") 
+
+def average(*numbers):
+    sum = 0
+    for i in numbers:
+        sum = sum +i
+    print("average is: ", sum /len(numbers))
+average(5,6)
+
+def average(*numbers):
+    sum = 0
+    for i in numbers:
+        sum = sum +i
+    return sum /len(numbers)
+c = average(52,62)
+print(c)
