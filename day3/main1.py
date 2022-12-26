@@ -69,3 +69,16 @@ temp.pop(3)                #remove item
 temp[2]="finland"          #change item
 countries=tuple(temp)
 print(countries)
+
+
+#f-string
+letter="hey my name is {1} and i am from {0}"
+country="india"
+name="jatin"
+print(letter.format(country, name))
+
+print(f"hey my name is {name} and i am from {country}")
+
+price = 47.9927332
+txt = f"for only {price:.2f} dollars"
+print(txt)
