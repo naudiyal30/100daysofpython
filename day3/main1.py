@@ -82,3 +82,5 @@ print(f"hey my name is {name} and i am from {country}")
 price = 47.9927332
 txt = f"for only {price:.2f} dollars"
 print(txt)
+
+print(f"{2 * 30}")
