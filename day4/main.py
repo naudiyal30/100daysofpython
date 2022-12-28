@@ -22,3 +22,17 @@ def fibonacci(num):
   else:
    return fibonacci(num-1) +  fibonacci(num-2)
 print(fibonacci(7))
+
+
+#Sets
+s = {2, 4, 2, 6}
+print(s)
+
+info = {"Carla", 19, False, 5.9, 19}
+print(info)
+
+jatin = set()
+print(type(jatin))
+
+for value in info:
+  print(value)
