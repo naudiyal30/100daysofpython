@@ -20,6 +20,6 @@ if __name__ == "__main__":
     s.extend(list(s4))
     #print(s)
     random.shuffle(s)
-    #print(s)
+    print("Your password is: ")
     print("".join(s[0:plen]))
 
