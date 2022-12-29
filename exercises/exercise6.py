@@ -1,3 +1,5 @@
+#To remind you to drink water
+
 import time
 from plyer import notification
 if __name__ == '__main__':

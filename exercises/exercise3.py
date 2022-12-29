@@ -1,3 +1,5 @@
+#Currency changer
+
 with open('currencyData.txt') as f:
 	lines = f.readlines()
 

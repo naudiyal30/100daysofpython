@@ -1,3 +1,5 @@
+#Save the files of same extension in particular folder
+
 import os
 
 def createIfNotExist(folder):
