@@ -1,3 +1,7 @@
+#Iterative approach is far better than recursive approach
+
+import time
+
 def fiboIter(n):
     prevNum = 0
     currentNum = 1
@@ -17,5 +21,8 @@ def fiboRecur(n):
 
 if __name__ == "__main__":
     num = int(input("Enter a number\n"))
-    print(f"Using recursion value of fib({num}) is {fiboRecur(num)}")
+    init = time.time()
+    # print(f"Using recursion value of fib({num}) is {fiboRecur(num)}")
     print(f"Using iteration value of fib({num}) is {fiboIter(num)}")
+
+    print(f"It took {time.time() - init} seconds")
