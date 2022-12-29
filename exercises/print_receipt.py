@@ -1,4 +1,4 @@
-#Write a python program which will keep adding a stream of numbers inputed bu the user. The adding stops as soon as user presses q key on keyboard
+#Write a python program which will keep adding a stream of numbers inputed by the user. The adding stops as soon as user presses q key on keyboard
 
 sum = 0
 while(True):
