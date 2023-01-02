@@ -45,3 +45,42 @@ print(s1.union(s2))
 print(s1.intersection(s2))
 s1.update(s2)
 print(s1, s2)
+
+
+#Dictionaries
+dic = {
+  "Jatin": "Human",
+  "Spoon": "Object"
+}
+print(dic["Jatin"])
+
+dic1 = {
+  567: "Jatin",
+  876: "Ram",
+  665: "Shyam",
+  234: "Karan"
+}
+print(dic1[234])
+
+info = {'Name': 'Jatin', 'Age': 25, 'Eligible':True}
+print(info)
+print(info['Name'])         #throws an error when name is not exist
+print(info.get('Eligible'))     #throws an null value when name is not exist
+
+print(info.keys())
+print(info.values())
+
+for key in info.keys():
+  print(f"The value corresponding to the key {key} is {info[key]}")
+
+
+#Dictionaries Methods
+ep1 = {122: 45, 123: 89, 567: 69, 670: 76}
+ep2 = {222: 67, 566: 90}
+ep1.update(ep2)
+print(ep1)
+empty={}
+print(empty)
+ep1.pop(122)
+ep1.popitem()
+print(ep1)

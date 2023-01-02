@@ -9,11 +9,11 @@ def transform(b):
             if b[i+1] == '0':
                 b[i+1] = '1'
             else:
-                b[i+1] = '1'
+                b[i+1] = '0'
 
     return b
 if __name__ == "__main__":
-    a = list("01111110000")
+    a = list("01111110000111101")
     print(a)
     while a != transform(a.copy()):
         a = transform(a.copy())
